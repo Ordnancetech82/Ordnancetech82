@@ -1,6 +1,6 @@
-apt-get update
-apt-get upgrade
-apt-get autoremove
+apt-get update -y
+apt-get upgrade -y
+apt-get autoremove -y
 reboot -h now
 
 apt-get install bluealsa pulseaudio pulseaudio-module-bluetooth
